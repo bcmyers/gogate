@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  {{if eq 1 .AttemptsRemaining}}
+  <Say>That is not the super secret passphrase. You have {{.AttemptsRemaining}} attempt remaining.</Say>
+  {{else}}
+  <Say>That is not the super secret passphrase. You have {{.AttemptsRemaining}} attempts remaining</Say>
+  {{end}}
+  <Record timeout="{{.Timeout}}" />
+</Response>

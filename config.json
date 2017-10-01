@@ -1,0 +1,19 @@
+{
+  "apiKeyGoogle": "[google api key]",
+  "apiKeyLoggly": "[loggly api key]",
+  "entryDigit": 9,
+  "host": "0.0.0.0",
+  "maxErrors": 3,
+  "maxRetries": 1,
+  "name": "[name]",
+  "password": "[passphrase]",
+  "phone": "[phone number]",
+  "port": 80,
+  "redis": {
+    "db": 0,
+    "host": "redis",
+    "password": "",
+    "port": 6379
+  },
+  "timeout": 3
+}
